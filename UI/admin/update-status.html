@@ -4,26 +4,41 @@
     <meta charset="utf-8" />
     <title>Update request status</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/UI/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="header"></div>
+    <div class="header">
+        <h3>Trackable</h3>
+</div>
+<ul>
+        <li><a href="view-requests.html">View requests</a></li>
+        <li class="nav-logout"><a href="../user/index.html" >Logout</a></li>
+</ul>
     <div class="row">
         <div class="general-form">
-        <h2>Update request status</h2>
+        <h2>User request </h2>
+        <span>Request id:</span> #1024578 <br>
+                <span>Title:</span> Leaking pipe <br>
+                <span>Description:</span>The main channel has a small leakage<br>
+                that is lowering the required pressure and increasing engine load.<br>
+                <span>Status:</span> Pending <br>
+                <span>User:</span> Ivan Balihikya
+        </div>
+        <div class="general-form">
             <form action="" method="POST">
-                Title: <h1>Default request</h1>
-                Description:<br>
-                <p>Default description</p> <br>
-                <h1>Status: open</h1>
                 Change status:
-                <select></select><br><br>
-                <input type="submit"  value="submit request">
+                <select>
+                    <option value="1">Pending</option>
+                    <option value="2">Approved</option>
+                    <option value="3">Rejected</option>
+                    <option value="4">Resolved</option>
+                </select>
+                <input type="submit"  value="Update status">
             </form>
         </div>
         </div>
-    <footer></footer>
+        <div class="footer">Trackable 2018</div>
     
 </body>
 </html>
