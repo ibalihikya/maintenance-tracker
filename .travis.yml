@@ -1,0 +1,5 @@
+language: python
+script: echo foo
+addons:
+    apt:
+      update: true
