@@ -8,7 +8,7 @@ Features:
 2. Users can view their own requests.
 3. Admin can approve/reject a maintenance/repair request
 4. Admin can filter requests.
-4. Admin can mark request as resolved when it is done.
+5. Admin can mark request as resolved when it is done.
 
 
 
