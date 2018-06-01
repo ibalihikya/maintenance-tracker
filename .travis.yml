@@ -8,6 +8,6 @@ before_script:
   - py.test --cov=api tests/
   - cd -
 script:
-  - py.test --cov=api /maintenance-tracker/tests/  coveralls -v --cov coveralls --cov-report term-missing
+  - py.test --cov=api tests/
 after_success:
   - coveralls
