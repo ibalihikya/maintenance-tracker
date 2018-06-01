@@ -1,7 +1,7 @@
-from app import app
-from file_util import*
+from api import app
 import unittest
-
+import json
+from tests.file_util import*
 
 class RestTests(unittest.TestCase):
 
@@ -16,7 +16,6 @@ class RestTests(unittest.TestCase):
         tester_b.delete('/api/v1/users/requests')
 
     def test_get_all_user_requests(self):
-        self.maxDiff = None
         testobj = app.test_client(self)
         response = testobj.get('/api/v1/users/requests', content_type='application/json')
         self.assertEqual(response.status_code, 200)

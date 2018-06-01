@@ -1,6 +1,5 @@
 from flask import Flask, jsonify, request, Response, json
-
-app = Flask(__name__)
+from api import app
 
 user_requests = []
 
@@ -71,8 +70,7 @@ def delete_all_requests():
     response = jsonify({'user_requests':user_requests})
     response.status_code = 204
     return response
-
-    
+   
     
 
 if __name__ == '__main__':
