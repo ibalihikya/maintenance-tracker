@@ -10,5 +10,7 @@ Features:
 4. Admin can filter requests.
 5. Admin can mark request as resolved when it is done.
 
+[![Coverage Status](https://coveralls.io/repos/github/ibalihikya/maintenance-tracker/badge.svg?branch=master)](https://coveralls.io/github/ibalihikya/maintenance-tracker?branch=master)
+
 
 
