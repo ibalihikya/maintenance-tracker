@@ -1,12 +1,15 @@
 language: python
 python:
- -"3.6"
- 
- install:
-  - pip install -r requirements.txt
-  
-script: 
-  - nosetests --with-coverage --cover-package=api
-addons:
-    apt:
-      update: true
+  - "3.6"
+install:
+  - pip install -e . --use-mirrors
+before_script:
+  - pip install -r test_requirements.txt --use-mirrors
+  - git clone https://github.com/ibalihikya/maintenance-tracker.git
+  - cd maintenance-tracker
+  - py.test --cov=api tests/
+  - cd -
+script:
+  - py.test --cov=api /maintenance-tracker/tests/  coveralls -v --cov coveralls --cov-report term-missing
+after_success:
+  - coveralls
