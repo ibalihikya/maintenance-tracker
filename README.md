@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/ibalihikya/maintenance-tracker/badge.svg?branch=master)](https://coveralls.io/github/ibalihikya/maintenance-tracker?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/ibalihikya/maintenance-tracker/badge.svg?branch=fix_syntaxify)](https://coveralls.io/github/ibalihikya/maintenance-tracker?branch=fix_syntaxify)
 
 # maintenance-tracker
 
