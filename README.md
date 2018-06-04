@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/ibalihikya/maintenance-tracker.svg?branch=master)](https://travis-ci.com/ibalihikya/maintenance-tracker)
 [![Coverage Status](https://coveralls.io/repos/github/ibalihikya/maintenance-tracker/badge.svg?branch=fix_syntaxify)](https://coveralls.io/github/ibalihikya/maintenance-tracker?branch=fix_syntaxify)
 
 # maintenance-tracker
