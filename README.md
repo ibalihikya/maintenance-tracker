@@ -110,5 +110,5 @@ Work in progress
 
 ## Acknowledgments
 
-    *Special thanks to John Ashabahebwa and Michael Male for the technical counsel
+    * Special thanks to John Ashabahebwa and Michael Male for the technical counsel
    
