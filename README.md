@@ -33,7 +33,7 @@ You will need the following.
 4. Pytest coverage - a test coverage tool
 ```
 
-###Installing
+### Installing
 
 Set up your development environment.
 
@@ -79,7 +79,7 @@ cd maintenance-tracker
    uri: http://127.0.0.1:5000/api/v1/users/requests/1
 ```   
 
-##Running the tests
+## Running the tests
 
 On the command prompt run the following commands in the root project directory
 ```
@@ -87,7 +87,7 @@ On the command prompt run the following commands in the root project directory
 >pytest
 ```
 
-##Deployment
+## Deployment
 
 ```
 You can deploy the system on Heroku using the following steps.
@@ -100,7 +100,7 @@ Work in progress ...
 
 * **Ivan Balihikya** - *Initial work*
 
-##Acknowledgments
+## Acknowledgments
 
     *Special thanks to John Ashabahebwa and Michael Male for the technical counsel.
    
