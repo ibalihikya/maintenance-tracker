@@ -61,10 +61,13 @@ cd maintenance-tracker
 ```
 
 5. Install pytest
+
 ```
 	pip install pytest
+```
 	
 6. Install pytest coverage
+
 ```
 	pip install pytest-cov
 ```
@@ -73,9 +76,13 @@ cd maintenance-tracker
 
 ```
    set FLASK_APP=api
+   
    flask run
-   Test the GET and POST methods using [POSTMAN](https://www.getpostman.com/): 
+   
+   Test the GET and POST methods using [POSTMAN](https://www.getpostman.com/):
+   
    uri: (http://127.0.0.1:5000/api/v1/users/requests)
+   
    uri: (http://127.0.0.1:5000/api/v1/users/requests/1)
 
    ```   
