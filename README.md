@@ -98,11 +98,10 @@ pytest
 
 ## Deployment
 
-```
 You can deploy the system on Heroku using the following steps.
 
 ```
-Work in progress ...
+Work in progress
 ```
 
 ## Authors
